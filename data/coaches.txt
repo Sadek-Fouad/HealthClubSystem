@@ -1,1 +1,3 @@
-1,Sadek,sadekfouad1@gamil.com,12345678,Coach,Ahmed Mohamed,2
+1,Sadek Fouad,sadek_fouad,sadek123,Coach,Ahmed Mohamed,Sunday - Tusday, From 9:00 Am to 5:00 PM
+2,Tamem,tamem_ahmed,tamem123,Coach,mohamed gamal,Sunday - Friday, From 12:00 PM to 8:00 PM
+3,Mohamed Aly,mohamed_aly,aly123,Coach,Mike Tyson,

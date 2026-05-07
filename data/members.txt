@@ -1,3 +1,6 @@
-1,Ahmed Mohamed,ahmedTe7a@gmail.com,12345,Member,1808235971811,Sadek,Push Pull Legs
-2,salah,salah_mohamed,123,Member,1776896645158,Not assigned,Not set
-3,mohamed gamal,mohamed_gamal,mohamed123,Member,1779488376251,Not assigned,Not set
+1,Ahmed Mohamed,Ahmed_Mohamed,12345,Member,1808235971811,Sadek,Push Pull Legs
+3,mohamed gamal,mohamed_gamal,mohamed123,Member,1779488376251,Tamem,Pro Split
+4,Osama,Osama_Sayed,osama123,Member,1778519805408,Not assigned,Not set
+5,Ruba,Ruba_Ahmed,ruba123,Member,1782407900616,Not assigned,Not set
+6,salah,salah_osama,salah123,Member,1780781999377,Not assigned,Not set
+7,Mike Tyson,mike_tyson,mike123,Member,1783379844669,Mohamed Aly,Not set
