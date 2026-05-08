@@ -90,15 +90,6 @@ The system stores data using text files, allowing information such as members, c
 
 ---
 
-## Future Improvements
-
-- GUI implementation
-- Database integration
-- Advanced authentication system
-- Enhanced reporting dashboard
-
----
-
 ## Author
 
 Sadek Fouad  
