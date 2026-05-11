@@ -90,8 +90,26 @@ public class Main {
                     System.out.print("Password: ");
                     String mPass = scanner.nextLine().trim();
                     System.out.print("Subscription days from today: ");
-                    int days = Integer.parseInt(scanner.nextLine().trim());
-                    Date endDate = new Date(System.currentTimeMillis()
+                    int days;
+
+                    while (true) {
+                        System.out.print("Subscription days from today: ");
+                        String input = scanner.nextLine().trim();
+
+                        try {
+                            days = Integer.parseInt(input);
+
+                            if (days <= 0) {
+                                System.out.println("Subscription days must be greater than 0.");
+                                continue;
+                            }
+
+                            break;
+
+                        } catch (NumberFormatException e) {
+                            System.out.println("Please enter a valid number.");
+                        }
+                    }                    Date endDate = new Date(System.currentTimeMillis()
                             + (long) days * 24 * 60 * 60 * 1000);
                     Member newMember = new Member(system.nextMemberId(),
                             mName, mUser, mPass, endDate);
