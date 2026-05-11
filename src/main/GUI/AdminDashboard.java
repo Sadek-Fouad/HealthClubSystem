@@ -101,8 +101,22 @@ public class AdminDashboard extends JFrame {
 
         if (name == null || username == null || password == null || daysText == null) return;
 
-        int days = Integer.parseInt(daysText);
-        Date endDate = new Date(System.currentTimeMillis() + (long) days * 24 * 60 * 60 * 1000);
+        int days;
+
+        try {
+            days = Integer.parseInt(daysText.trim());
+
+            if (days <= 0) {
+                JOptionPane.showMessageDialog(this,
+                        "Subscription days must be greater than 0.");
+                return;
+            }
+
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(this,
+                    "Please enter a valid number for subscription days.");
+            return;
+        }        Date endDate = new Date(System.currentTimeMillis() + (long) days * 24 * 60 * 60 * 1000);
 
         Member member = new Member(system.nextMemberId(), name, username, password, endDate);
         system.addMember(member);
